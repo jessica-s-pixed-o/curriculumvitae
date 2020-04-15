@@ -1,0 +1,156 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+	background-image: url('../img/7.jpg');
+	background-repeat: no-repeat;
+}
+header,footer{
+	width: 100%;
+	height: 80px;
+	background-color:#142850;
+	
+}
+#logo{
+	width:30%
+	height:100px;
+	background-color: #0c7b93;
+
+}
+#menuh{
+	width: 65%;
+	height: 100px;
+}
+#logo, #menuh{
+	display: inline;
+}
+#logo img{
+	width:10%;
+	height:100px;
+}
+/* Menú estilos para el menú principal
+*/
+#menuh{
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
+	margin-top: auto;
+	float: right;
+}
+#menuh ul,li{
+	list-style-type: none; 
+}
+#menuh li{
+	display: inline ;
+}
+#menuh a{
+	text-decoration: none;
+	color:#00a8cc;
+	background-color: #27496d;
+	padding: 6px 20px;
+	text-align: center;
+	border: 2px solid #0c7b93;
+	border-width: 3px 3px 3px 3;
+}
+#sectionp{
+	width: 100%;
+	height: 74%;
+	background-attachment: fixed;
+}
+#sectionp *{
+	font-weight:normal; 
+	letter-spacing:.5em;
+	text-align:center;
+}
+#sectionp p{
+	font-size: 30px;
+	font-weight: bold;
+	color:#ffffff;
+	margin-top: 100px;
+	font-family: sans-serif;
+	letter-spacing: .5em;
+}
+#seccion h4{
+	background-color:hsla(19,0%,100%, .4);
+}
+footer{
+	border-top: 2px solid #ff5200;
+}
+#direccion{
+	width: 50%;
+	height: 15%;
+	font-family: sans-serif;
+	font-size: italic;
+	color:#ffffff;
+}
+}
+#redes{
+	width: 50%;
+	height: 15%;
+	float: right;
+}
+/*Estilos para la pagina de contacto*/
+#formulario{
+	width: 100%;
+	height: 74%;
+	/*background-color: chocolate;*/
+}
+#formulario *{
+	font-family: sans-serif;
+	font-weight: normal;
+	letter-spacing: .03em;
+	font-family: sans-serif;
+	line-height: 1.3em;
+}
+#frm{
+	font-family: sans-serif;
+	text-align: justify;
+	width: 20%;
+	height: 100%;
+	margin: auto;
+}
+#video,#mapa{
+	width: 45%;
+	display: inline;
+}
+#redes img{
+	height: 20px;
+	width: 20px;
+}
+#logotipo img{
+	height: 80px;
+	width: 90px;
+}
+#texto1{
+	font-family: sans-serif;
+	text-decoration: none;
+	color:#ffffff;
+	padding: 10px 10px;
+	text-align: center;
+	border: 1px solid #be79df;
+	border-width: 0px 1px 0px 0;
+}
+#Imagenes img{
+	height: 20%;
+	width: 20%;
+}
+#Titulo{
+	font-family: sans-serif;
+	text-decoration: none;
+	color:#ffffff;
+	padding: 100px 100px;
+	text-align: center;
+	border: 5px solid #be79df;
+	border-width: 0px 1px 0px 0;
+}
+footer {
+    align-self: flex-end;
+    width: 100%;
+    background: #202020;
+    color: white;
+    height: 250px;
+}
