@@ -1,0 +1,115 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin:0%;
+	padding:0%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url('../img/fondo1.jpg');
+}
+header, footer{
+	width:100%;
+	background-color: blueviolet;
+	height: 80px;
+}
+#perfil{
+	height: 100%;
+	width: 30%;
+}
+#menuh{
+	width: 65%;
+	height: 100px;
+}
+#perfil, #menuh{
+	display: inline;
+}
+#perfil img {
+	width: 10%;
+	height: 100px;
+}
+#menuh{
+	font-family: 'Trade winds', cursive;
+	font-size: 1em;
+	text-align:  center;
+	margin-top: auto;
+	float: right;
+}
+#menuh, ul, li{
+	list-style-type: none;
+}
+#menuh, li{
+	display: none;
+}
+#menuh a{
+	text-decoration: none;
+	color:dimgrey;
+	background-color:cadetblue;
+	padding: 3px 10px;
+	text-align: center;
+	border: 1px solid cadetblue;
+	border-width: 0px 1px 0px 0;
+}
+#sectionp{
+	width: 100%;
+	height: 74%;
+	background-attachment: fixed;
+}
+#sectionp *{
+	font-weight:normal; 
+	letter-spacing:.5em;
+	text-align:center;
+}
+#sectionp p{
+	font-size: 30px;
+	font-weight: bold;
+	color:#415865;
+	margin-top: 100px;
+	font-family: 'helventica';
+	letter-spacing: .5em;
+}
+#seccion h4{
+	background-color:hsla(19,0%,100%, .4);
+}
+footer{
+	border-top: 2px solid ;
+}
+#direccion{
+	width: 50%;
+	height: 15%;
+	font-family: 'helventica';
+	font-size: italic;
+	color:#415865;
+}
+}
+#redes{
+	width: 50%;
+	height: 15%;
+	float: right;
+}
+#formulario{
+	width: 100%;
+	height: 74%;
+}
+#formulario *{
+	font-weight: normal;
+	letter-spacing: .03em;
+	font-family: 'helventica';
+	line-height: 1.3em;
+}
+#frm{
+	text-align: justify;
+	width: 20%;
+	height: 100%;
+	margin: auto;
+}
+#video, #mapa{
+	width: 45%;
+	display: inline;
+}
+figure img{
+	height: 10%;
+	width: 100px;
+	border-radius: 50px;
+}
